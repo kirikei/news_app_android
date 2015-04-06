@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- mainアクティビティ用 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/Liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top" />
+
+        <Button
+            android:id="@+id/buttonSoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social" />
+
+        <Button
+            android:id="@+id/buttonWor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="World" />
+
+        <Button
+            android:id="@+id/buttonBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business" />
+
+        <Button
+            android:id="@+id/buttonTech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technology" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Liner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonEnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entertainment" />
+
+        <Button
+            android:id="@+id/buttonSpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports" />
+
+        <Button
+            android:id="@+id/buttonSnc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Science" />
+
+        <Button
+            android:id="@+id/buttonPol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Policy" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--リストが空のとき表示  -->
+    <TextView
+        android:id="@+id/test_items"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

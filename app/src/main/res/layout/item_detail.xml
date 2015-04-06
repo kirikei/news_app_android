@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_detail.xml -->
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/Liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"/>
+
+        <ImageButton
+            android:id="@+id/WebButton1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="異議アリ"
+            android:scaleType="fitXY"
+            android:src="@drawable/igiari"
+            android:layout_weight="0.5"
+            />
+
+        <ImageButton
+            android:id="@+id/WebButton2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Wide Angle"
+            android:scaleType="fitXY"
+            android:src="@drawable/yorimichi"
+            android:layout_weight="0.5"
+            />
+
+        <ImageButton
+            android:id="@+id/WebButton3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:text="深読み"
+            android:src="@drawable/fukayomi"
+            android:layout_weight="0.5"
+            />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/WebView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/item_detail_title"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:background="@android:drawable/dark_header"-->
+        <!--android:text="Page not found"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/item_detail_descr"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+</LinearLayout>
